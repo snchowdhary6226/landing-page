@@ -1,0 +1,229 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1e2937;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+p {
+  line-height: 1.4;
+}
+
+button {
+  background: #3882f6;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f9faf8;
+  color: #3882f6;
+}
+
+#home,
+#features,
+#testimonials,
+#signup {
+  padding: 60px 0;
+}
+
+/************************************** Navbar *************************************/
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #1f2937;
+  align-items: center;
+  padding: 1rem 10rem;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+}
+
+header .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 23px;
+  padding-right: 8px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #e5e7ebb0;
+}
+
+/***************************** Home Section *****************************************/
+#home {
+  background: #1f2937;
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  max-width: 75%;
+  gap: 5%;
+}
+
+.hero-text {
+  max-width: 55%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.home-container img {
+  max-width: 40%;
+}
+
+/******************************* Features Section ***********************************/
+#features {
+  min-height: 70vh;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.feature {
+  max-width: 18%;
+  text-align: center;
+}
+
+i {
+  font-size: 4rem;
+  color: steelblue;
+}
+
+/************************** Testimonials Section ***********************************/
+#testimonials {
+  background: #e5e7eb;
+  color: #444;
+  min-height: 80vh;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.testimonial {
+  max-width: 18%;
+}
+
+.testimonial-text {
+  font-style: italic;
+  color: #666;
+}
+
+.user-info {
+  display: flex;
+}
+
+.user-info img {
+  max-width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info-text .name {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.user-info-text .designation {
+  margin: 0;
+  font-size: 13px;
+}
+
+/********************************* Signup Section ***********************************/
+#signup {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: space-around;
+  background: #3882f6;
+  min-width: 60%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 2rem 3rem;
+}
+
+.signup-text h2 {
+  margin: 0;
+  color: #f9faf8;
+}
+
+.signup-text p {
+  color: #e5e7eb;
+  margin: 0;
+}
+
+#signup button {
+  border: 3px solid #f9faf8;
+  padding: 1rem 4rem;
+  border-radius: 10px;
+}
+
+/********************************** Footer *****************************************/
+footer {
+  background: #1f2937;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  color: #e5e7eb;
+  font-size: 18px;
+}
